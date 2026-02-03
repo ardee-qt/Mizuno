@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizuno Sports Shoes - Performance, Comfort, Durability</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Optional inline for video fallback, but handled in CSS */
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <input type="checkbox" id="sidebar-toggle">
+    <label for="sidebar-toggle" class="sidebar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <div class="sidebar">
+        <label for="sidebar-toggle" class="sidebar-close">✕</label>
+        <h3>Navigation & Filters</h3>
+        <div class="sidebar-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#shoes">Shoes</a></li>
+                <li><a href="#shop-by-sport">Shop by Sport</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#cta">Shop Now</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h4>Sports</h4>
+            <ul>
+                <li><a href="#running">Running</a></li>
+                <li><a href="#volleyball">Volleyball</a></li>
+                <li><a href="#football">Football</a></li>
+                <li><a href="#golf">Golf</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h4>Price Range</h4>
+            <p>$100 - $200</p>
+        </div>
+        <div class="sidebar-section">
+            <h4>Sizes</h4>
+            <div class="sizes">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>10</button>
+                <button>11</button>
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <a href="#bestsellers" class="btn">Best Sellers</a>
+        </div>
+    </div>
+
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Mizuno Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#shop-by-sport">Shop by Sport</a></li>
+                    <li><a href="#shoes">Shoes</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </nav>
+            <a href="#cta" class="btn primary shop-now">Shop Now</a>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <!-- Shoe Carousel -->
+        <div class="carousel">
+            <div class="carousel-slides">
+                <div class="slide">
+                    <img src="images/HyperwarpGroup_1312x615.png" alt="Hyperwarp Group Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Maharishi_Desktop_1312x615.png" alt="Maharishi Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/MXRAfewDesktop_1312x615.png" alt="MXR A Few Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/NeoZen2_1312x615.png" alt="Neo Zen 2 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SportPhase3_Homepagebanners_1312x615.png" alt="Sport Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SSPhase3_Homepagebanners_1312x615.png" alt="SS Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/VADesktop_1312x615.png" alt="VA Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Wave_LightningElite_1312x615.png" alt="Wave Lightning Elite Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/HyperwarpGroup_1312x615.png" alt="Hyperwarp Group Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Maharishi_Desktop_1312x615.png" alt="Maharishi Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/MXRAfewDesktop_1312x615.png" alt="MXR A Few Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/NeoZen2_1312x615.png" alt="Neo Zen 2 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SportPhase3_Homepagebanners_1312x615.png" alt="Sport Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SSPhase3_Homepagebanners_1312x615.png" alt="SS Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/VADesktop_1312x615.png" alt="VA Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Wave_LightningElite_1312x615.png" alt="Wave Lightning Elite Shoe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hidden radio buttons for sport toggles -->
+    <input type="radio" name="sport" id="sport-all" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-running" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-volleyball" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-football" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-golf" class="sport-toggle">
+
+    <section id="shop-by-sport" class="shop-by-sport">
+        <div class="container">
+            <h2>Shop by Sport</h2>
+            <div class="sports-grid">
+                <label for="sport-all" class="sport-card">
+                    <img src="images/ALL.jpg" alt="All Shoes">
+                    <div class="overlay">All Shoes</div>
+                </label>
+                <label for="sport-volleyball" class="sport-card">
+                    <img src="images/products/volleyball.jpg" alt="Volleyball Shoes">
+                    <div class="overlay">Volleyball</div>
+                </label>
+                <label for="sport-running" class="sport-card">
+                    <img src="images/products/Running.jpg" alt="Running Shoes">
+                    <div class="overlay">Running</div>
+                </label>
+                <label for="sport-football" class="sport-card">
+                    <img src="images/products/football.jpg" alt="Football Shoes">
+                    <div class="overlay">Football</div>
+                </label>
+                <label for="sport-golf" class="sport-card">
+                    <img src="images/products/golf.jpg" alt="Golf Shoes">
+                    <div class="overlay">Golf</div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="shoes" class="featured-shoes">
+        <div class="container">
+            <h2>Featured Mizuno Shoes by Sport</h2>
+            
+            <h3 id="running">Running</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download.jpg" alt="Running Shoe 1">
+                    </div>
+                    <h4>Running Shoe 1</h4>
+                    <p class="price">$140</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (1).jpg" alt="Running Shoe 2">
+                    </div>
+                    <h4>Running Shoe 2</h4>
+                    <p class="price">$145</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (2).jpg" alt="Running Shoe 3">
+                    </div>
+                    <h4>Running Shoe 3</h4>
+                    <p class="price">$150</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (3).jpg" alt="Running Shoe 4">
+                    </div>
+                    <h4>Running Shoe 4</h4>
+                    <p class="price">$155</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (4).jpg" alt="Running Shoe 5">
+                    </div>
+                    <h4>Running Shoe 5</h4>
+                    <p class="price">$160</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            
+            <h3 id="volleyball">Volleyball</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download.jpg" alt="Volleyball Shoe 1">
+                    </div>
+                    <h4>Volleyball Shoe 1</h4>
+                    <p class="price">$130</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (1).jpg" alt="Volleyball Shoe 2">
+                    </div>
+                    <h4>Volleyball Shoe 2</h4>
+                    <p class="price">$135</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (2).jpg" alt="Volleyball Shoe 3">
+                    </div>
+                    <h4>Volleyball Shoe 3</h4>
+                    <p class="price">$140</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (3).jpg" alt="Volleyball Shoe 4">
+                    </div>
+                    <h4>Volleyball Shoe 4</h4>
+                    <p class="price">$145</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (7).jpg" alt="Volleyball Shoe 5">
+                    </div>
+                    <h4>Volleyball Shoe 5</h4>
+                    <p class="price">$150</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            
+            <h3 id="football">Football</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download.jpg" alt="Football Shoe 1">
+                    </div>
+                    <h4>Football Shoe 1</h4>
+                    <p class="price">$160</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (1).jpg" alt="Football Shoe 2">
+                    </div>
+                    <h4>Football Shoe 2</h4>
+                    <p class="price">$165</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (2).jpg" alt="Football Shoe 3">
+                    </div>
+                    <h4>Football Shoe 3</h4>
+                    <p class="price">$170</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (3).jpg" alt="Football Shoe 4">
+                    </div>
+                    <h4>Football Shoe 4</h4>
+                    <p class="price">$175</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (4).jpg" alt="Football Shoe 5">
+                    </div>
+                    <h4>Football Shoe 5</h4>
+                    <p class="price">$180</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            
+            <h3 id="golf">Golf</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download.jpg" alt="Golf Shoe 1">
+                    </div>
+                    <h4>Golf Shoe 1</h4>
+                    <p class="price">$120</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (1).jpg" alt="Golf Shoe 2">
+                    </div>
+                    <h4>Golf Shoe 2</h4>
+                    <p class="price">$125</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (2).jpg" alt="Golf Shoe 3">
+                    </div>
+                    <h4>Golf Shoe 3</h4>
+                    <p class="price">$130</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (3).jpg" alt="Golf Shoe 4">
+                    </div>
+                    <h4>Golf Shoe 4</h4>
+                    <p class="price">$135</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (5).jpg" alt="Golf Shoe 5">
+                    </div>
+                    <h4>Golf Shoe 5</h4>
+                    <p class="price">$140</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Product Features & Benefits</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Engineered for optimal speed and agility on any surface. Advanced technology keeps you at your peak performance.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Comfort</h3>
+                    <p>Advanced cushioning and support for all-day wear. Experience cloud-like comfort with every step.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Durability</h3>
+                    <p>Built to last with high-quality materials and construction. Engineered to withstand intense training.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Sustainability</h3>
+                    <p>Eco-friendly manufacturing processes and sustainable materials for a better future.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✨</div>
+                    <h3>Style</h3>
+                    <p>Premium design meets athletic performance. Look as good as you feel in every game.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Excellence</h3>
+                    <p>100+ years of heritage and trust. Chosen by professionals and athletes worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <h2>Product Showcase</h2>
+            <video autoplay loop muted class="showcase-video" controls>
+                <source src="images/ADS.mp4" type="video/mp4">
+                <!-- Fallback: Your browser does not support the video tag. -->
+            </video>
+            <p>Watch Mizuno shoes in action – performance, comfort, and durability in motion.</p>
+        </div>
+    </section>
+
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <h2>Why Choose Mizuno</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <h3>Brand Strength</h3>
+                    <p>Trusted by professionals worldwide for over 100 years.</p>
+                </div>
+                <div class="why-item">
+                    <h3>Innovation</h3>
+                    <p>Cutting-edge technology in every pair of shoes.</p>
+                </div>
+                <div class="why-item">
+                    <h3>Athlete-Tested</h3>
+                    <p>Proven performance in sports at the highest level.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="review">
+                    <p>"Excellent comfort and support during long runs."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- John D.</p>
+                </div>
+                <div class="review">
+                    <p>"Durable and stylish, perfect for training."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- Sarah M.</p>
+                </div>
+                <div class="review">
+                    <p>"Great value for money, highly recommend."</p>
+                    <p class="rating">★★★★☆</p>
+                    <p>- Mike R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Game?</h2>
+            <p>Shop the latest Mizuno sports shoes today.</p>
+            <a href="#shop" class="btn primary">Shop Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mizuno. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
