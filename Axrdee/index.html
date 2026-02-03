@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizuno Sports Shoes - Performance, Comfort, Durability</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Optional inline for video fallback, but handled in CSS */
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <input type="checkbox" id="sidebar-toggle">
+    <label for="sidebar-toggle" class="sidebar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <div class="sidebar">
+        <label for="sidebar-toggle" class="sidebar-close">✕</label>
+        <h3>Navigation & Filters</h3>
+        <div class="sidebar-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#shoes">Shoes</a></li>
+                <li><a href="#shop-by-sport">Shop by Sport</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#cta">Shop Now</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h4>Sports</h4>
+            <ul>
+                <li><a href="#running">Running</a></li>
+                <li><a href="#volleyball">Volleyball</a></li>
+                <li><a href="#football">Football</a></li>
+                <li><a href="#golf">Golf</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <a href="#shoes" class="btn">All Shoes</a>
+        </div>
+    </div>
+
+    <header class="sticky-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Mizuno Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#shop-by-sport">Shop by Sport</a></li>
+                    <li><a href="#shoes">Shoes</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </nav>
+            <a href="#cta" class="btn primary shop-now">Shop Now</a>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <!-- Shoe Carousel -->
+        <div class="carousel">
+            <div class="carousel-slides">
+                <div class="slide">
+                    <img src="images/HyperwarpGroup_1312x615.png" alt="Hyperwarp Group Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Maharishi_Desktop_1312x615.png" alt="Maharishi Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/MXRAfewDesktop_1312x615.png" alt="MXR A Few Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/NeoZen2_1312x615.png" alt="Neo Zen 2 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SportPhase3_Homepagebanners_1312x615.png" alt="Sport Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SSPhase3_Homepagebanners_1312x615.png" alt="SS Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/VADesktop_1312x615.png" alt="VA Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Wave_LightningElite_1312x615.png" alt="Wave Lightning Elite Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/HyperwarpGroup_1312x615.png" alt="Hyperwarp Group Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Maharishi_Desktop_1312x615.png" alt="Maharishi Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/MXRAfewDesktop_1312x615.png" alt="MXR A Few Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/NeoZen2_1312x615.png" alt="Neo Zen 2 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SportPhase3_Homepagebanners_1312x615.png" alt="Sport Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/SSPhase3_Homepagebanners_1312x615.png" alt="SS Phase 3 Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/VADesktop_1312x615.png" alt="VA Shoe">
+                </div>
+                <div class="slide">
+                    <img src="images/Wave_LightningElite_1312x615.png" alt="Wave Lightning Elite Shoe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hidden radio buttons for sport toggles -->
+    <input type="radio" name="sport" id="sport-all" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-running" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-volleyball" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-football" class="sport-toggle">
+    <input type="radio" name="sport" id="sport-golf" class="sport-toggle">
+
+    <section id="shop-by-sport" class="shop-by-sport">
+        <div class="container">
+            <h2>Shop by Sport</h2>
+            <div class="sports-grid">
+                <label for="sport-all" class="sport-card">
+                    <img src="images/products/ALl.jpg" alt="All Shoes">
+                    <div class="overlay">All Shoes</div>
+                </label>
+                <label for="sport-volleyball" class="sport-card">
+                    <img src="images/products/volleyball.jpg" alt="Volleyball Shoes">
+                    <div class="overlay">Volleyball</div>
+                </label>
+                <label for="sport-running" class="sport-card">
+                    <img src="images/products/Running.jpg" alt="Running Shoes">
+                    <div class="overlay">Running</div>
+                </label>
+                <label for="sport-football" class="sport-card">
+                    <img src="images/products/football.jpg" alt="Football Shoes">
+                    <div class="overlay">Football</div>
+                </label>
+                <label for="sport-golf" class="sport-card">
+                    <img src="images/products/golf.jpg" alt="Golf Shoes">
+                    <div class="overlay">Golf</div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="shoes" class="featured-shoes">
+        <div class="container">
+            <h2>Featured Mizuno Shoes by Sport</h2>
+            
+            <h3 id="running">Running</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download.jpg" alt="Wave Inspire 22">
+                    </div>
+                    <h4>Wave Inspire 22</h4>
+                    <p class="price">₱7,840</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (1).jpg" alt="Wave Rider 29">
+                    </div>
+                    <h4>Wave Rider 29</h4>
+                    <p class="price">₱8,120</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (2).jpg" alt="Neo Zen 2">
+                    </div>
+                    <h4>Neo Zen 2</h4>
+                    <p class="price">₱8,400</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (3).jpg" alt="Neo Vista 2">
+                    </div>
+                    <h4>Neo Vista 2</h4>
+                    <p class="price">₱8,680</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/running/download (4).jpg" alt="Hyperwarp Elite">
+                    </div>
+                    <h4>Hyperwarp Elite</h4>
+                    <p class="price">₱8,960</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            
+            <h3 id="volleyball">Volleyball</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download.jpg" alt="Wave Momentum Elite">
+                    </div>
+                    <h4>Wave Momentum Elite</h4>
+                    <p class="price">₱7,280</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (1).jpg" alt="Wave Momentum 3">
+                    </div>
+                    <h4>Wave Momentum 3</h4>
+                    <p class="price">₱7,560</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (2).jpg" alt="Wave Lightning Neo 3">
+                    </div>
+                    <h4>Wave Lightning Neo 3</h4>
+                    <p class="price">₱7,840</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (3).jpg" alt="Wave Stealth Neo 2">
+                    </div>
+                    <h4>Wave Stealth Neo 2</h4>
+                    <p class="price">₱8,120</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/volleyball/download (7).jpg" alt="Wave Luminous 3">
+                    </div>
+                    <h4>Wave Luminous 3</h4>
+                    <p class="price">₱8,400</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            
+            <h3 id="football">Football</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download.jpg" alt="Morelia Neo IV Elite">
+                    </div>
+                    <h4>Morelia Neo IV Elite</h4>
+                    <p class="price">₱8,960</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (1).jpg" alt="Morelia Neo IV Pro">
+                    </div>
+                    <h4>Morelia Neo IV Pro</h4>
+                    <p class="price">₱9,240</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (2).jpg" alt="Alpha III Elite">
+                    </div>
+                    <h4>Alpha III Elite</h4>
+                    <p class="price">₱9,520</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (3).jpg" alt="Alpha III Pro">
+                    </div>
+                    <h4>Alpha III Pro</h4>
+                    <p class="price">₱9,800</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/football/download (4).jpg" alt="Morelia Neo IV Beta Elite">
+                    </div>
+                    <h4>Morelia Neo IV Beta Elite</h4>
+                    <p class="price">₱10,080</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            
+            <h3 id="golf">Golf</h3>
+            <div class="shoe-grid">
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download.jpg" alt="Ambition Elite">
+                    </div>
+                    <h4>Ambition Elite</h4>
+                    <p class="price">₱6,720</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (1).jpg" alt="Morelia Pro">
+                    </div>
+                    <h4>Morelia Pro</h4>
+                    <p class="price">₱7,000</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (2).jpg" alt="Nexlite Pro">
+                    </div>
+                    <h4>Nexlite Pro</h4>
+                    <p class="price">₱7,280</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (3).jpg" alt="Lightness Sport">
+                    </div>
+                    <h4>Lightness Sport</h4>
+                    <p class="price">₱7,560</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <div class="shoe-card">
+                    <div class="shoe-image">
+                        <img src="images/golf/download (5).jpg" alt="Wave Tour Pro">
+                    </div>
+                    <h4>Wave Tour Pro</h4>
+                    <p class="price">₱7,840</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Product Features & Benefits</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Engineered for optimal speed and agility on any surface. Advanced technology keeps you at your peak performance.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Comfort</h3>
+                    <p>Advanced cushioning and support for all-day wear. Experience cloud-like comfort with every step.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Durability</h3>
+                    <p>Built to last with high-quality materials and construction. Engineered to withstand intense training.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Sustainability</h3>
+                    <p>Eco-friendly manufacturing processes and sustainable materials for a better future.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✨</div>
+                    <h3>Style</h3>
+                    <p>Premium design meets athletic performance. Look as good as you feel in every game.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Excellence</h3>
+                    <p>100+ years of heritage and trust. Chosen by professionals and athletes worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <h2>Product Showcase</h2>
+            <video autoplay loop muted class="showcase-video" controls>
+                <source src="images/ADS.mp4" type="video/mp4">
+                <!-- Fallback: Your browser does not support the video tag. -->
+            </video>
+            <p>Watch Mizuno shoes in action – performance, comfort, and durability in motion.</p>
+        </div>
+    </section>
+
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <h2>Why Choose Mizuno</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <h3>🌍 Legacy of Excellence</h3>
+                    <p>Over 100 years of innovation and craftsmanship. Mizuno has been the trusted partner of elite athletes across all sports, combining Japanese precision engineering with cutting-edge athletic science.</p>
+                </div>
+                <div class="why-item">
+                    <h3>⚙️ Advanced Technology</h3>
+                    <p>Our proprietary cushioning systems and responsive materials are designed to enhance performance, reduce fatigue, and prevent injuries. Every shoe undergoes rigorous testing to meet the highest standards.</p>
+                </div>
+                <div class="why-item">
+                    <h3>🏅 Athlete Endorsed</h3>
+                    <p>Worn by professional athletes and Olympians. Our shoes are field-tested at the highest levels of competition and refined based on real-world performance feedback from champions.</p>
+                </div>
+                <div class="why-item">
+                    <h3>💯 Perfect Fit Promise</h3>
+                    <p>Engineered for optimal comfort with anatomically designed soles. Whether you're running, jumping, or competing, our shoes adapt to your unique foot shape and movement patterns.</p>
+                </div>
+                <div class="why-item">
+                    <h3>♻️ Sustainable Commitment</h3>
+                    <p>We're dedicated to environmental responsibility through eco-friendly materials and ethical manufacturing practices. Performance doesn't have to compromise our planet's future.</p>
+                </div>
+                <div class="why-item">
+                    <h3>🎯 Unmatched Value</h3>
+                    <p>Premium quality at competitive prices. Mizuno delivers professional-grade footwear without the premium price tag, making elite athletic performance accessible to everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="review">
+                    <p>"Great shoes for running. Very comfortable and supportive."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- John D.</p>
+                </div>
+                <div class="review">
+                    <p>"Love these for volleyball. They hold up well and feel good on the court."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- Sarah M.</p>
+                </div>
+                <div class="review">
+                    <p>"Good quality for the price. Been wearing them for months and still look new."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- Mike R.</p>
+                </div>
+                <div class="review">
+                    <p>"Perfect fit and great traction. Exactly what I needed for football."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- David K.</p>
+                </div>
+                <div class="review">
+                    <p>"Comfortable and stylish. I wear them to the gym and around town."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- Emma L.</p>
+                </div>
+                <div class="review">
+                    <p>"Durable shoes. No complaints so far, highly recommend."</p>
+                    <p class="rating">★★★★★</p>
+                    <p>- Carlos M.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Game?</h2>
+            <p>Shop the latest Mizuno sports shoes today.</p>
+            <a href="#shop" class="btn primary">Shop Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mizuno. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
